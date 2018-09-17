@@ -1,4 +1,4 @@
-/*
+﻿/*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
@@ -17,7 +17,7 @@ public class JogoForca {
 		String palavra = "";
 		Scanner scan = new Scanner(System.in);
 
-		String add[] = new String[20];
+		String add[] = new String[21];
 		add[0] = "casaco";
 		add[1] = "janela";
 		add[2] = "porta";
@@ -38,7 +38,7 @@ public class JogoForca {
 		add[17] = "garfo";
 		add[18] = "colher";
 		add[19] = "lampada";
-		
+		add[20] = "ADD UM NOVO PULL PRA RECOMITAR";
 		
 		boolean upa=true;		 
 		while(upa==true){
